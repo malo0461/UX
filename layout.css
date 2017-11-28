@@ -74,7 +74,7 @@ h2 {
 
 
 nav {
-	width: 99vw;
+	width: 100vw;
 	height: 100%;
 	display: flex;
 	flex-wrap: wrap;
@@ -294,6 +294,7 @@ blockquote cite:before {
 }
 
 .scrum {
+
 	height: 100%;
 	width: 12%;
 	text-decoration: none;
@@ -310,6 +311,7 @@ blockquote cite:before {
 	font-weight: 700;
 	text-align: center;
 	color: #82b678;
+
 }
 
 /*MOODBOARD*/
@@ -428,6 +430,17 @@ blockquote cite:before {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
+	width: 50vw;
+	height: 45.6vw;
+}
+
+/*Benchmarking*/
+
+#benchmarking {
+	background-image: url(Benchmarking/Screen%20Shot%202017-11-28%20at%2012.39.11.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
 	width: 100vw;
-	height: 91.21vw;
+	height: 9.09vw;
 }
