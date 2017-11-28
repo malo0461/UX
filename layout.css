@@ -7,24 +7,38 @@ h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.4rem;
 	font-weight: 400;
+	padding-bottom: 3vw;
+
 }
 
 h2 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.2rem;
 	font-weight: 400;
+
+}
+
+h3,
+h4,
+h5 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+
+
 }
 
 p {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1rem;
 	font-weight: 200;
+	background-color: white;
 }
 
 a {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1rem;
 	font-weight: 200;
+	text-decoration: none;
 }
 
 nav {
@@ -42,17 +56,181 @@ nav li a {
 }
 
 ul {
+	font-family: 'Montserrat', sans-serif;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
 
-/*YOUTUBE*/
+/******************TEST*/
+
+#persona {
+
+	margin-top: 5vw;
+	margin: 0 10vw;
+}
+
+.persona {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	background-color: white;
+
+	padding: 1vw 0;
+}
+
+.persona_img {
+	box-sizing: border-box;
+	width: 30%;
+	float: right;
+}
+
+#prototype {
+	margin: 8vw 10vw;
+
+}
+
+.prototype {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	background-color: white;
+
+	padding: 1vw 0;
+}
+
+#kea_schedule {
+
+	margin: 5vw 10vw;
+}
+
+blockquote {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-style: italic;
+	width: 500px;
+	background-color: white;
+	padding: 1.25em 0;
+	line-height: 1.45;
+	position: relative;
+	color: #82b678;
+
+}
+
+blockquote:before {
+	display: block;
+	content: "\201C";
+	font-size: 80px;
+	position: absolute;
+	left: -36px;
+	top: -14px;
+	color: #7a7a7a;
+}
+
+
+
+blockquote cite {
+	color: #999999;
+	font-size: 14px;
+	display: block;
+	margin-top: 5px;
+}
+
+blockquote cite:before {
+	content: "\2014 \2009";
+}
+
+.schedule_prototype {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	background-color: white;
+
+	padding: 1vw 0;
+}
+
+.painPointSchedule {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	font-weight: 500;
+	background-color: white;
+
+	padding: 1vw 0;
+}
+
+#kea_unite {
+
+	margin: 5vw 10vw;
+}
+
+#img_prototype {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	padding-top: 5vw;
+	padding-bottom: 5vw;
+}
+
+.unite_img {
+	width: 20%;
+	height: 40%;
+
+}
+
+.unite_img_rotate {
+	width: 20%;
+	height: 40%;
+	transform: rotate(-90deg);
+}
+
+#kea_tutor {
+	margin: 5vw 10vw;
+}
+
+#features {
+	margin: 5vw 10vw;
+
+}
+
+.login {
+	padding: 2% 0 2% 0;
+	background-color: white;
+}
+
+.menu {
+	padding-bottom: 2%;
+	background-color: white;
+}
+
+.profil {
+	padding-bottom: 2%;
+	background-color: white;
+}
+
+.chat {
+	padding-bottom: 2%;
+	background-color: white;
+}
+
+.feed {
+	padding-bottom: 2%;
+	background-color: white;
+}
+
+
+
+/***************************YOUTUBE*/
+
+/*
+.scrum_bg {
+	background-image: url(img_byg/bg.png);
+}
+*/
 
 #scrum_body {
 	width: 100vw;
 	height: 100vw;
-	background-image: ;
+
 	background-repeat: no-repeat;
 	cursor: url(img_byg/turd%20copy.png), auto;
 	position: relative;
