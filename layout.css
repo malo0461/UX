@@ -1,76 +1,208 @@
 body {
-	margin: 0 auto;
-	padding: 0;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#forside {
+    background-color: #f29db9;
+}
+
+#baggrund {
+    background-image: url(forside/baggrund.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100vw;
+    height: 56.25vw;
 }
 
 h1 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1.4rem;
-	font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
 }
 
 h2 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1.2rem;
-	font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
 p {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1rem;
-	font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
 }
 
 a {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1rem;
-	font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
 }
 
 nav {
-	width: 100vw;
-	height: 10vw;
-	background-color: white;
-	display: inline-block;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-content: center;
+    background-color: #DC648D;
+    padding: 5px;
 }
 
-nav li a {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1rem;
-	font-weight: 300;
+nav a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    border-right: solid 1px white;
+    font-weight: bold;
+}
 
+.none {
+    border: none;
 }
 
 ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 /*YOUTUBE*/
 
 #scrum_body {
-	width: 100vw;
-	height: 100vw;
-	background-image: ;
-	background-repeat: no-repeat;
-	cursor: url(img_byg/turd%20copy.png), auto;
-	position: relative;
+    width: 100vw;
+    height: 100vw;
+    background-image: ;
+    background-repeat: no-repeat;
+    cursor: url(img_byg/turd%20copy.png), auto;
+    position: relative;
 }
 
 
 #video_scrum {
-	flex-wrap: wrap;
-	display: flex;
-	position: absolute;
-	height: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    position: absolute;
+    height: 100%;
 }
 
 .scrum {
-	height: 100%;
-	width: 10%;
-	border: white;
-	border-style: solid;
-	border-width: 2vw;
-	cursor: url(img_byg/turd%20copy.png), auto;
+    height: 100%;
+    width: 10%;
+    border: white;
+    border-style: solid;
+    border-width: 2vw;
+    cursor: url(img_byg/turd%20copy.png), auto;
+}
+
+/*MOODBOARD*/
+
+#moodboard {
+    background-image: url(moodboard/moodboard.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 56.25vw;
+}
+
+.moodboard {
+    color: #DC648D;
+    text-decoration: underline;
+}
+
+/*MOODBOARD*/
+
+#styletile {
+    background-image: url(styletile/styletile.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 56.25vw;
+}
+
+/*Experience Map*/
+
+#schedule {
+    background-image: url(experience/kea_schedule.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 133.33vw;
+    transform: rotate(90deg);
+}
+
+#unite {
+
+    background-image: url(experience/kea_unite.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 133.33vw;
+    transform: rotate(90deg);
+}
+
+#tutor {
+    background-image: url(experience/kea_tutor.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 133.33vw;
+    transform: rotate(90deg);
+}
+
+/*Storyboard*/
+
+#storyboard_schedule {
+    background-image: url(storyboard/kea_schedule_storyboard/kea_schedule.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 133.33vw;
+}
+
+#storyboard_tutor {
+    background-image: url(storyboard/kea_tutor_storyboard/kea_tutor.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 133.33vw;
+}
+
+#storyboard_unite1 {
+    background-image: url(storyboard/kea_unite_storyboard/kea_unite1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 75vw;
+}
+
+#storyboard_unite2 {
+    background-image: url(storyboard/kea_unite_storyboard/kea_unite2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 75vw;
+}
+
+#storyboard_unite3 {
+    background-image: url(storyboard/kea_unite_storyboard/kea_unite3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 75vw;
 }
