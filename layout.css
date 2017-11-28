@@ -227,3 +227,14 @@ ul {
     width: 100vw;
     height: 91.21vw;
 }
+
+/*Benchmarking*/
+
+#benchmarking {
+    background-image: url(Benchmarking/Screen%20Shot%202017-11-28%20at%2012.39.11.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 9.09vw;
+}
