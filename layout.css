@@ -331,6 +331,42 @@ blockquote cite:before {
 	padding-left: 2vw;
 }
 
+/****************************UI KIT*/
+
+#kits {
+	margin: 0 10vw;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#kits2 {
+	margin: 0 10vw;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#ui_eksempler {
+	width: 100%;
+	height: 50%;
+}
+
+#ui_kit {
+	width: 100%;
+	height: 50%;
+}
+
+.eks1 {
+	width: 40%;
+	height: 40%;
+	padding: 2% 2%;
+}
+
+.brugt {
+	width: 40%;
+	height: 40%;
+	padding: 2% 2%;
+}
+
 /*MOODBOARD*/
 
 #styletile {
