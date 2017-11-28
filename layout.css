@@ -4,7 +4,7 @@ body {
 }
 
 #forside {
-    background-color: #f29db9;
+    background-color: white;
 }
 
 #baggrund {
@@ -32,6 +32,11 @@ p {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     font-weight: 200;
+}
+
+#change,
+h2 {
+    color: white;
 }
 
 a {
@@ -98,7 +103,7 @@ ul {
     width: 10%;
     text-decoration: none;
     color: white;
-    border: #f29db9;
+    border: white;
     border-style: solid;
     border-width: 2vw;
 }
@@ -209,4 +214,16 @@ ul {
     background-position: center;
     width: 100vw;
     height: 75vw;
+}
+
+
+/*Forretningsmodel*/
+
+#forretning {
+    background-image: url(forretningsmodel/Doing%20Business.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 91.21vw;
 }
