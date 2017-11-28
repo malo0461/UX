@@ -65,7 +65,8 @@ p {
 #change,
 h2 {
     color: black;
-    padding: 2vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 
@@ -314,7 +315,7 @@ blockquote cite:before {
 .moodboard {
     color: black;
     text-decoration: underline;
-    padding-left: 2vw;
+    padding-left: 10vw;
 }
 
 /*MOODBOARD*/
@@ -415,9 +416,10 @@ blockquote cite:before {
     background-image: url(forretningsmodel/Doing%20Business.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: center;
+
     width: 50vw;
     height: 45.6vw;
+    padding-left: 10vw;
 }
 
 /*Benchmarking*/
