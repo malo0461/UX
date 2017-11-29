@@ -771,3 +771,119 @@ ul {
 	margin-right: 0;
 	padding-left: 40px;
 }
+
+#forklaring_af_app {
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1280px;
+}
+
+#kea_unite_ikon {
+	margin: 0 auto;
+	padding: 0;
+	width: 30vw;
+	height: 30vw;
+	background-image: url(img_pitch/kea_unite_logo_1.svg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#afdelinger_tekst {
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+}
+
+.afdeling_container {
+	width: 5vw;
+	height: 2vw;
+}
+
+#design {
+	font-family: "Montserrat-light";
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	position: absolute;
+	left: 20vw;
+	top: 10vw;
+}
+
+#digital {
+	font-family: "Montserrat-light";
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	position: absolute;
+	left: 63vw;
+	top: 10vw;
+}
+
+#teknik {
+	font-family: "Montserrat-light";
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	position: absolute;
+	left: 20vw;
+	top: 35vw;
+}
+
+#byg {
+	font-family: "Montserrat-light";
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	position: absolute;
+	left: 63vw;
+	top: 35vw;
+}
+
+
+
+
+#benefits_container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 300px;
+	margin: 60px 60px;
+	border: 2px solid #adadad;
+	border-radius: 20px;
+	padding: 2vw;
+}
+
+#menuen1 {
+	margin-top: 5vw;
+	height: 600px;
+	width: 300px;
+	background-image: url(img_pitch/design.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#benefits_tekt {
+	text-align: center;
+	font-size: 30px;
+	line-height: 250px;
+	margin-top: -64px;
+}
+
+#menuen2 {
+	margin-top: 5vw;
+	height: 600px;
+	width: 300px;
+	background-image: url(img_pitch/teknik.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+a,
+.svg_filer {
+	font-size: 1em;
+	font-weight: 600;
+	color: black;
+}
+
+#burndown_chart {
+	margin: 60px 150px;
+	width: 60%;
+	height: 50%;
+}
