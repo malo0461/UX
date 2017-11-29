@@ -731,3 +731,33 @@ nav a,
     margin: 40px auto 100px 20px;
     line-height: 90px;
 }
+
+#benefits_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#menuen1 {
+    height: 600px;
+    width: 300px;
+    background-image: url(img_pitch/design.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#benefits_tekt {
+    text-align: center;
+    font-size: 30px;
+    line-height: 250px;
+    margin-top: -108px;
+}
+
+#menuen2 {
+    height: 600px;
+    width: 300px;
+    background-image: url(img_pitch/teknik.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
